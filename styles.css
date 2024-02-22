@@ -1,0 +1,94 @@
+
+
+.down {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 40%;
+}
+
+.middle {
+    align-content: center;
+}
+
+.layout {
+    width: 1240px;
+    height: 600px;
+  
+    display: grid;
+    grid:
+      "header" auto
+      "main" 1fr
+      "footer" auto
+      / 1fr;
+    gap: 8px;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* a {
+    color: rgb(155, 218, 234);
+  } */
+
+   /* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  } 
+  
+  .header { grid-area: header; border-right: 2px double rgb(71, 3, 103); padding: 100px 50px; text-align: center;}
+  .main { grid-area: main; margin: 1px 10px 40px 10px;}
+  .footer { grid-area: footer; border: 2px double rgb(71, 3, 103); padding: 10px 10px; flex-basis: 800px}
+  
+  
+#blue-color {
+    color: rgb(39, 39, 95);
+}
+
+.projectLink {
+  color: blue;
+  text-decoration: underline;
+}
+
+#justify {
+    text-align: justify;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.hide {
+  display: none;
+}
+
+.button {
+    
+    margin-top: 15%;
+    text-align: center;
+}
+
+h1 { font-family: Open Sans; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+h3 { font-family: Open Sans; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+p { font-family: Open Sans; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote { font-family: Open Sans; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: Open Sans; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
